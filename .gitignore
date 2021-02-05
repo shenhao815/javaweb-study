@@ -1,7 +1,8 @@
 .idea/
 target/
-any-java-notes.iml
+.iml
 .project
 .settings/
 src/test/
 out/
+/*.iml
