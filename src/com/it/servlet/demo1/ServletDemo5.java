@@ -28,6 +28,7 @@ public class ServletDemo5 extends HttpServlet {
         String contextPath = context.getContextPath();
         System.out.println(contextPath);
 
+
         // 3 获得全局初始化参数：
         String contextname = context.getInitParameter("contextname");
         String contextname2 = context.getInitParameter("contextname2");

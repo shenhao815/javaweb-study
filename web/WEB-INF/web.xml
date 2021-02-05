@@ -56,4 +56,31 @@
     <servlet-name>servletdemo5</servlet-name>
     <url-pattern>/servletdemo5</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servletdemo6</servlet-name>
+    <servlet-class>com.it.servlet.demo1.ServletDemo6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletdemo6</servlet-name>
+    <url-pattern>/servletdemo6</url-pattern>
+  </servlet-mapping>
+
+  <!--/////////////////////////////////////////////////////-->
+  <servlet>
+    <servlet-name>responsedemo1</servlet-name>
+    <servlet-class>com.it.servlet.demo1.com.it.response.demo1.ResponseDemo1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>responsedemo1</servlet-name>
+    <url-pattern>/responsedemo1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <servlet-class>com.it.servlet.demo1.com.it.response.demo1.ResponseDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <url-pattern>/ResponseDemo2</url-pattern>
+  </servlet-mapping>
 </web-app>
